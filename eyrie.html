@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"> 
+  <meta name="description" content="">
+  
+  
+  <title>Red Elmo - Eyrie</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One:400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dela+Gothic+One:400&display=swap"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Golos+Text:400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Golos+Text:400,500,600,700,800,900&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Yovkgi"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Yovkgi" type="text/css">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.8/plyr.min.js"></script>
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu6 cid-uJn6Yda8b6" once="menu" id="menu06-5">
+	<style>
+		.cid-uJjCVnqAGe {
+		
+			position: fixed;
+		}
+		</style>
+
+	<nav class="navbar navbar-dropdown opacityScrollOff navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-logo">
+					<a href="home.html">
+						<img src="assets/images/logo.svg" alt="Mobirise Website Builder" style="height: 3rem;">
+					</a>
+				</span>
+				
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse opacityScrollOff" id="navbarSupportedContent">
+				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+						<a class="nav-link link text-black display-4" href="home.html#article07-g">Ontstaan</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black text-primary display-4" href="eyrie.html#header05-6" aria-expanded="false">Muziek</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black text-primary display-4" href="home.html#gallery08-2">Wie is wie</a>
+					</li></ul>
+				
+				
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="header5 cid-uJn6Yenn9S" id="header05-6">
+	
+
+	
+	
+	
+	<div class="align-center container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-md-12 content-head">
+				<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
+					<strong>Eyrie</strong></h1>
+				
+				
+			</div>
+		</div>
+		<div class="row mt-5 justify-content-center">
+			<div class="col-12 col-lg-6">
+				<img src="assets/images/background.jpg-711x375.jpg" alt="Eyrie" title="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="musicbody" style="padding: 20px; padding-top: 70px; display: flex; flex-direction: column; margin: auto;" >
+    <div class="container">
+      <div class="column add-bottom">
+          <div id="mainwrap">
+              <div id="nowPlay">
+                  <span id="npAction">Gepauzeerd...</span><span id="npTitle"></span>
+              </div>
+              <div id="audiowrap">
+                  <div id="audio0">
+                      <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+                  </div>
+                  <div id="tracks">
+                  </div>
+              </div>
+              <div id="plwrap">
+                  <ul id="plList"></ul>
+              </div>
+          </div>
+      </div>
+    </div>  
+  </section>
+  <style>
+    /* Font Family
+================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+
+/* Global Styles
+================================================== */
+
+.musicbody {
+-webkit-font-smoothing:antialiased;
+-webkit-text-size-adjust:100%;
+background-color:#2d0000;
+color:#fff;
+font-size:1rem;
+font-family:"Source Sans Pro", arial, sans-serif;
+font-weight:400;
+letter-spacing:.025rem;
+line-height:1.618;
+padding:1rem 0;
+}
+
+.musicbody *,
+.musicbody *::before,
+.musicbody *::after {
+  box-sizing: border-box;
+}
+
+
+* {
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-tap-highlight-color:transparent;
+}
+
+
+/* Setup
+================================================== */
+
+.container { position:relative; margin:0 auto; width:100%; }
+.column { width:inherit; }
+#plList{
+  padding-left: 0px;
+}
+
+/* Typography / Links
+================================================== */
+
+p { color:#fff; display:block; font-size:.9rem; font-weight:400; margin:0 0 2px; }
+
+
+/* Misc.
+================================================== */
+
+.add-bottom { margin-bottom:2rem !important; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+.hidden { display:none; }
+
+.no-support {
+margin:2rem auto;
+text-align:center;
+width:90%;
+}
+
+
+/* Audio Player Styles
+================================================== */
+
+audio {
+display:none;
+}
+
+.plyr--full-ui input[type=range] {
+  color: #ea0100 !important;
+}
+#audiowrap,
+#plwrap {
+margin:0 auto;
+}
+
+#tracks {
+font-size:0;
+position:relative;
+text-align:center;
+}
+
+#nowPlay {
+display:block;
+font-size:0;
+}
+
+#nowPlay span {
+display:inline-block;
+font-size:1.05rem;
+vertical-align:top;
+}
+
+#nowPlay span#npAction {
+padding:21px;
+width:30%;
+}
+
+#nowPlay span#npTitle {
+padding:21px;
+text-align:right;
+width:70%;
+}
+
+#plList li {
+cursor:pointer;
+display:block;
+margin:0;
+padding:21px 0;
+}
+
+#plList li:hover {
+background-color:rgba(0, 0, 0, .1);
+}
+
+.plItem {
+position:relative;
+}
+
+.plTitle {
+line-height: 1.5 !important;
+left:50px;
+overflow:hidden;
+position:absolute;
+right:65px;
+text-overflow:ellipsis;
+top:0;
+white-space:nowrap;
+}
+
+.plNum {
+padding-left:21px;
+width:25px;
+}
+
+.plLength {
+padding-left:21px;
+position:absolute;
+right:21px;
+top:0;
+}
+
+.plSel,
+.plSel:hover {
+background-color:rgba(0, 0, 0, .1);
+color:#fff;
+cursor:default !important;
+}
+
+#tracks a {
+border-radius:3px;
+color:#fff;
+cursor:pointer;
+display:inline-block;
+font-size:2.3rem;
+height:40px;
+line-height:.2;
+margin:0 5px 30px;
+padding:12px;
+text-decoration:none;
+transition:background .3s ease;
+}
+
+#tracks a:hover,
+#tracks a:active {
+background-color:rgba(0, 0, 0, .1);
+color:#fff;
+}
+
+#tracks a::-moz-focus-inner {
+border:0;
+padding:0;
+}
+
+
+/* Plyr Overrides
+================================================== */
+
+.plyr--audio .plyr__controls {
+background-color:transparent;
+border:none;
+color:#fff;
+font-family:"Source Sans Pro", arial, sans-serif;
+padding:20px 20px 20px 13px;
+width:100%;
+}
+
+a.plyr__controls__item.plyr__control:hover,
+.plyr--audio .plyr__controls button:hover,
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr__play-large {
+background-color:rgba(0, 0, 0, .1);
+}
+
+.plyr__progress--played,
+.plyr__volume--display {
+color:rgba(0, 0, 0, .1);
+}
+
+.plyr--audio .plyr__progress--buffer,
+.plyr--audio .plyr__volume--display {
+background-color:rgba(0, 0, 0, .1);
+}
+
+.plyr--audio .plyr__progress--buffer {
+color:rgba(0, 0, 0, .1);
+}
+
+.plyr__controls .plyr__controls__item.plyr__time {
+font-size:14px;
+margin-left:7px;
+}
+
+
+/* Media Queries
+================================================== */
+
+@media only screen and (max-width:600px) {
+    #nowPlay span#npAction { display:none; }
+    #nowPlay span#npTitle { display:block; text-align:center; width:100%; }
+}
+  </style>
+  <script>
+    // Mythium Archive: https://archive.org/details/mythium/
+
+jQuery(function ($) {
+    'use strict'
+    var supportsAudio = !!document.createElement('audio').canPlayType;
+    if (supportsAudio) {
+        // initialize plyr
+        var player = new Plyr('#audio1', {
+            controls: [
+                'play',
+                'progress',
+                'current-time',
+                'duration',
+            ]
+        });
+        // initialize playlist and controls
+        var index = 0,
+            playing = false,
+            mediaPath = '',
+            extension = '',
+            tracks = [{
+    "track": 1,
+    "name": "And in your head",
+    "artist": "Red Elmo",
+    "duration": "5:02",
+    "file": "music/01 Red Elmo - and in your head"
+}, {
+    "track": 2,
+    "name": "For the souls without",
+    "artist": "Red Elmo",
+    "duration": "3:59",
+    "file": "music/02 Red Elmo - for the souls without"
+}, {
+    "track": 3,
+    "name": "Sky came down",
+    "artist": "Red Elmo",
+    "duration": "2:33",
+    "file": "music/03 Red Elmo - sky came down"
+}, {
+    "track": 4,
+    "name": "Seaward side",
+    "artist": "Red Elmo",
+    "duration": "4:40",
+    "file": "music/04 Red Elmo - seaward side"
+}, {
+    "track": 5,
+    "name": "A sunday dream",
+    "artist": "Red Elmo",
+    "duration": "4:29",
+    "file": "music/05 Red Elmo - a sunday dream"
+}, {
+    "track": 6,
+    "name": "So I try to hide",
+    "artist": "Red Elmo",
+    "duration": "7:11",
+    "file": "music/06 Red Elmo - so i try to hide"
+}, {
+    "track": 7,
+    "name": "Another one - Another world",
+    "artist": "Red Elmo",
+    "duration": "3:13",
+    "file": "music/07 Red Elmo - another world"
+}, {
+    "track": 8,
+    "name": "We live in shadows",
+    "artist": "Red Elmo",
+    "duration": "12:10",
+    "file": "music/08 Red Elmo - we live in shadows"
+}],
+            buildPlaylist = $.each(tracks, function(key, value) {
+                var trackNumber = value.track,
+                    trackName = value.name,
+                    trackDuration = value.duration;
+                if (trackNumber.toString().length === 1) {
+                    trackNumber = '0' + trackNumber;
+                }
+                $('#plList').append('<li> \
+                    <div class="plItem"> \
+                        <span class="plNum">' + trackNumber + '.</span> \
+                        <span class="plTitle">' + trackName + '</span> \
+                        <span class="plLength">' + trackDuration + '</span> \
+                    </div> \
+                </li>');
+            }),
+            trackCount = tracks.length,
+            npAction = $('#npAction'),
+            npTitle = $('#npTitle'),
+            audio = $('#audio1').on('play', function () {
+                playing = true;
+                npAction.text('Nu speelt...');
+            }).on('pause', function () {
+                playing = false;
+                npAction.text('Gepauzeerd...');
+            }).on('ended', function () {
+                npAction.text('Gepauzeerd...');
+                if ((index + 1) < trackCount) {
+                    index++;
+                    loadTrack(index);
+                    audio.play();
+                } else {
+                    audio.pause();
+                    index = 0;
+                    loadTrack(index);
+                }
+            }).get(0),
+            
+            li = $('#plList li').on('click', function () {
+                var id = parseInt($(this).index());
+                if (id !== index) {
+                    playTrack(id);
+                }
+            }),
+            loadTrack = function (id) {
+                $('.plSel').removeClass('plSel');
+                $('#plList li:eq(' + id + ')').addClass('plSel');
+                npTitle.text(tracks[id].name);
+                index = id;
+                audio.src = mediaPath + tracks[id].file + extension;
+                updateDownload(id, audio.src);
+            },
+            updateDownload = function (id, source) {
+                player.on('loadedmetadata', function () {
+                    $('a[data-plyr="download"]').attr('href', source);
+                });
+            },
+            playTrack = function (id) {
+                loadTrack(id);
+                audio.play();
+            };
+        extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
+        loadTrack(index);
+    } else {
+        // no audio support
+        $('.column').addClass('hidden');
+        var noSupport = $('#audio1').text();
+        $('.container').append('<p class="no-support">' + noSupport + '</p>');
+    }
+});
+
+  </script><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  <section data-bs-version="5.1" class="footer2 cid-uJn2TB5CWy" once="footers" id="footer02-3">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 center mt-2 mb-3">
+                <p class="mbr-fonts-style copyright mb-0 display-7">®&nbsp;Trademark 2025 Red Elmo & Sander De Langhe</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+  
+</body>
+</html>
